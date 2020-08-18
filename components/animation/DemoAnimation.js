@@ -27,7 +27,7 @@ class DemoAnimation extends Component{
         return(
             <TouchableOpacity style={styles.container} onPress={this.animatedBox}>
                 <Animated.View style={[styles.box, animatedStyle]}/>
-    </TouchableOpacity>
+            </TouchableOpacity>
 
         )
     }
